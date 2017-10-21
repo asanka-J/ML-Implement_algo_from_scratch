@@ -19,6 +19,7 @@ def  bestFitSlopeAndIntercept(x,y):
 m,b=bestFitSlopeAndIntercept(x,y)
 
 regressoionLine=[(m*xVal)+b  for xVal in x]
+
 plt.scatter(x,y)
 plt.plot(x,regressionLine)
 plt.show()
